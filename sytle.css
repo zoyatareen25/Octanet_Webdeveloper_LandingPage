@@ -1,0 +1,181 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzUzNjZ8MHwxfGFsbHwxfHx8fHx8fHwxNjE0NTUxNTg5&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background: #ff6b6b;
+}
+
+/* Hero section styles */
+.hero {
+    color: #fff;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero .container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.hero .btn {
+    background: #ff6b6b;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.hero .btn:hover {
+    background: #ff4b4b;
+}
+
+/* Courses section styles */
+.courses-section {
+    padding: 2rem 0;
+    background: #f4f4f4;
+    color: #333;
+}
+
+.courses-section .container {
+    text-align: center;
+}
+
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.course {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.course img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.course h3 {
+    margin-top: 1rem;
+}
+
+/* About section styles */
+.about-section {
+    padding: 2rem 0;
+}
+
+.about-section .container {
+    text-align: center;
+}
+
+/* Contact section styles */
+.contact-section {
+    padding: 2rem 0;
+}
+
+.contact-section .container {
+    text-align: center;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-section form label,
+.contact-section form input,
+.contact-section form textarea {
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 1rem;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section form button {
+    background: #ff6b6b;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-section form button:hover {
+    background: #ff4b4b;
+}
+
+/* Footer styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}

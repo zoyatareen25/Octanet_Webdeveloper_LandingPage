@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnSphere</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: url('https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNzUzNjZ8MHwxfGFsbHwxfHx8fHx8fHwxNjE0NTUxNTg5&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center/cover;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>LearnSphere</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Welcome to Our E-Learning Platform</h2>
+            <p>Enhance your skills with the best online courses.</p>
+            <a href="#courses" class="btn">Explore Courses</a>
+        </div>
+    </section>
+    <section id="courses" class="courses-section">
+        <div class="container">
+            <h2>Our Courses</h2>
+            <div class="course-grid">
+                <div class="course">
+                    <img src="Web_Development.jpeg" alt="Web Development" height="200px" width="300px">
+                    <h3>Web Development</h3>
+                    <p>Learn the latest technologies in web development.</p>
+                </div>
+                <div class="course">
+                    <img src="Data_Science.jpeg" alt="Data Science" height="200px" width="300px">
+                    <h3>Data Science</h3>
+                    <p>Master data analysis and machine learning techniques.</p>
+                </div>
+                <div class="course">
+                    <img src="Marketing.jpeg" alt="Digital Marketing" height="200px" width="300px">
+                    <h3>Digital Marketing</h3>
+                    <p>Get certified in digital marketing strategies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>We provide high-quality online courses to help you achieve your career goals.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 LearnSphere. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
